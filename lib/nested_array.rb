@@ -35,6 +35,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   produce_sorted = ORGANIC_PRODUCE.sort + CONVENTIONAL_PRODUCE.sort
   produce_sorted
+  binding.pry
 end
 
 def matrix_lookup(matrix, row, column)
