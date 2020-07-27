@@ -23,7 +23,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   new_produce = [
      CONVENTIONAL_PRODUCE,
-      
+      ORGANIC_PRODUCE
     ]
 
   
